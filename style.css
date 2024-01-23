@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: yellow;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.img{
+    background-color: blue;
+    width: fit-content;
+}
+.h{
+    background-color:blue;
+    text-align: center;
+    font-size: 80px;
+    width: 100%;
+}
+.a{
+    text-align: center;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('main.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:hover{ background-color: orangered;}
